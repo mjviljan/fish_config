@@ -1,1 +1,21 @@
-/Users/mjv/.slate
+# Abstract positions
+alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
+alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
+alias righthalf move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
+alias topleft corner top-left resize:screenSizeX/2;screenSizeY/2
+alias topright corner top-right resize:screenSizeX/2;screenSizeY/2
+alias bottomleft corner bottom-left resize:screenSizeX/2;screenSizeY/2
+alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
+alias tophalf push bottom bar-resize:screenSizeY/2
+alias bottomhalf push top bar-resize:screenSizeY/2
+
+# Numpad location Bindings
+bind pad1:cmd,shift ${bottomleft}
+bind pad2:cmd,shift ${tophalf}
+bind pad3:cmd,shift ${bottomright}
+bind pad4:cmd,shift ${lefthalf}
+bind pad5:cmd,shift ${full}
+bind pad6:cmd,shift ${righthalf}
+bind pad7:cmd,shift ${topleft}
+bind pad8:cmd,shift ${bottomhalf}
+bind pad9:cmd,shift ${topright}
