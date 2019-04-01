@@ -7,6 +7,7 @@ if not set -q abbrs_initialized
   abbr gb 'git branch'
   abbr gbl 'git blame'
   abbr gc 'git commit -m'
+  abbr gca 'git commit --amend -m'
   abbr gco 'git checkout'
   abbr gcp 'git cherry-pick'
   abbr gd 'git diff'
