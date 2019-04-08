@@ -17,6 +17,8 @@ if not set -q abbrs_initialized
   abbr gp 'git push'
   abbr gpl 'git pull'
   abbr gr 'git remote'
+  abbr grb 'git rebase'
+  abbr grs 'git reset'
   abbr gs 'git status'
   abbr gst 'git stash'
 
