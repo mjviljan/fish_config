@@ -15,6 +15,7 @@ if not set -q abbrs_initialized
   abbr gl 'git log'
   abbr gm 'git merge'
   abbr gp 'git push'
+  abbr gpf 'git push --force-with-lease'
   abbr gpl 'git pull'
   abbr gr 'git remote'
   abbr grb 'git rebase'
