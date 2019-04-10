@@ -1,5 +1,3 @@
-if not set -q abbrs_initialized
-  set -U abbrs_initialized
   echo -n Setting abbreviations... 
 
   abbr g 'git'
@@ -28,5 +26,3 @@ if not set -q abbrs_initialized
   abbr hiss 'history --search'
 
   echo 'Done'
-end
-
