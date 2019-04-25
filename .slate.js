@@ -120,5 +120,14 @@ S.bindAll({
   "pad9:cmd,shift": cornerOp("top-right"),
   "pad1:cmd,shift": cornerOp("bottom-left"),
   "pad3:cmd,shift": cornerOp("bottom-right"),
+  "k:alt,ctrl,cmd": fullScreenOp,
+  "i:alt,ctrl,cmd": upEdgeOp,
+  ",:alt,ctrl,cmd": downEdgeOp,
+  "j:alt,ctrl,cmd": leftEdgeOp,
+  "l:alt,ctrl,cmd": rightEdgeOp,
+  "u:alt,ctrl,cmd": cornerOp("top-left"),
+  "o:alt,ctrl,cmd": cornerOp("top-right"),
+  "m:alt,ctrl,cmd": cornerOp("bottom-left"),
+  ".:alt,ctrl,cmd": cornerOp("bottom-right"),
   "esc:cmd": S.op("hint")
 });
