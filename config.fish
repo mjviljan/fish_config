@@ -20,6 +20,8 @@
   abbr grs 'git reset'
   abbr gs 'git status'
   abbr gst 'git stash'
+  abbr gdb 'git for-each-ref --format="%(authordate:short) %(refname:short) %(objectname:short) %(authorname)" --shell refs/remotes/ | sort | xargs printf \'%s  %-50s %s  %s\n\''
+  abbr gdf 'git ls-files --deleted -z | xargs -0 git rm'
 
   abbr fn 'find . -iname'
 
