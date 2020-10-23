@@ -18,6 +18,7 @@
   abbr gr 'git remote'
   abbr grb 'git rebase'
   abbr grs 'git reset'
+  abbr grv 'git revert'
   abbr gs 'git status'
   abbr gst 'git stash'
   abbr gdb 'git for-each-ref --format="%(authordate:short) %(refname:short) %(objectname:short) %(authorname)" --shell refs/remotes/ | sort | xargs printf \'%s  %-50s %s  %s\n\''
