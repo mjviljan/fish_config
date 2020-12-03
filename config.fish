@@ -28,4 +28,8 @@
 
   abbr hiss 'history --search'
 
+  abbr dk 'docker'
+  abbr dcb 'docker-compose build'
+  abbr dcu 'docker-compose up'
+
   echo 'Done'
