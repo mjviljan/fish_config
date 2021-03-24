@@ -32,4 +32,9 @@
   abbr dcb 'docker-compose build'
   abbr dcu 'docker-compose up'
 
+  abbr cb 'cargo build'
+  abbr cr 'cargo run'
+  abbr ct 'cargo test'
+  abbr ctn 'cargo test -- --nocapture'
+
   echo 'Done'
