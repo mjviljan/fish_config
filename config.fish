@@ -12,7 +12,7 @@
   abbr gf 'git fetch'
   abbr gl 'git log'
   abbr gm 'git merge'
-  abbr gp 'git push'
+  abbr gp 'git push -u origin HEAD'
   abbr gpf 'git push --force-with-lease'
   abbr gpl 'git pull'
   abbr gr 'git remote'
