@@ -255,7 +255,24 @@
     "topRight" : {
       "keyCode" : 31,
       "modifierFlags" : 1835008
+    },
+    "topLeftEighth" : {
+      "keyCode" : 16,
+      "modifierFlags" : 1835008
+    },
+    "topRightEighth" : {
+      "keyCode" : 35,
+      "modifierFlags" : 1835008
+    },
+    "bottomLeftEighth" : {
+      "keyCode" : 45,
+      "modifierFlags" : 1835008
+    },
+    "bottomRightEighth" : {
+      "keyCode" : 44,
+      "modifierFlags" : 1835008
     }
   },
   "version" : "59"
 }
+
