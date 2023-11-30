@@ -32,6 +32,7 @@ abbr hiss 'history --search'
 abbr dk 'docker'
 abbr dcb 'docker-compose build'
 abbr dcu 'docker-compose up'
+abbr dcf 'docker-compose -f'
 
 abbr cb 'cargo build'
 abbr cr 'cargo run'
