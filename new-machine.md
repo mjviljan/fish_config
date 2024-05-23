@@ -16,3 +16,4 @@ These are not necessarily related to Fish shell but are still useful to have bee
   - **Fira Mono** font from [powerline fonts](https://github.com/powerline/fonts)
   - [Hasklig font](https://github.com/i-tu/Hasklig) for Intellij Idea
 - Customise the folder color in iTerm (blue color to lighter one)
+- Remove the "Search man Page Index in Terminal" keyboard shortcut in System Settings, under Services > Text (clashes with IntelliJ shortcut)
