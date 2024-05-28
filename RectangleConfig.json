@@ -85,6 +85,9 @@
     "gapSize" : {
       "float" : 0
     },
+    "hapticFeedbackOnSnap" : {
+      "int" : 0
+    },
     "hideMenubarIcon" : {
       "bool" : false
     },
@@ -237,6 +240,10 @@
       "keyCode" : 45,
       "modifierFlags" : 1835008
     },
+    "bottomLeftSixth" : {
+      "keyCode" : 46,
+      "modifierFlags" : 1966080
+    },
     "bottomRight" : {
       "keyCode" : 47,
       "modifierFlags" : 1835008
@@ -333,6 +340,10 @@
       "keyCode" : 11,
       "modifierFlags" : 786432
     },
+    "topCenterSixth" : {
+      "keyCode" : 34,
+      "modifierFlags" : 1966080
+    },
     "topHalf" : {
       "keyCode" : 34,
       "modifierFlags" : 1835008
@@ -345,6 +356,10 @@
       "keyCode" : 16,
       "modifierFlags" : 1835008
     },
+    "topLeftSixth" : {
+      "keyCode" : 32,
+      "modifierFlags" : 1966080
+    },
     "topRight" : {
       "keyCode" : 31,
       "modifierFlags" : 1835008
@@ -352,7 +367,11 @@
     "topRightEighth" : {
       "keyCode" : 35,
       "modifierFlags" : 1835008
+    },
+    "topRightSixth" : {
+      "keyCode" : 31,
+      "modifierFlags" : 1966080
     }
   },
-  "version" : "82"
+  "version" : "85"
 }
