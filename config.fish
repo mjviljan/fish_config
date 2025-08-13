@@ -34,6 +34,7 @@ abbr dk 'docker'
 abbr dcb 'docker-compose build'
 abbr dcu 'docker-compose up'
 abbr dcf 'docker-compose -f'
+abbr dcx 'docker context'
 
 abbr cb 'cargo build'
 abbr cr 'cargo run'
