@@ -28,7 +28,8 @@ abbr gdf 'git ls-files --deleted -z | xargs -0 git rm'
 
 abbr fn 'find . -iname'
 
-abbr hiss 'history --search'
+abbr hiss 'history search'
+abbr hisd 'history delete'
 
 abbr dk 'docker'
 abbr dcb 'docker-compose build'
