@@ -6,8 +6,8 @@ These are not necessarily related to Fish shell but are still useful to have bee
 - Set up spaces and their keyboard shortcuts (System Settings > Keyboard > Keyboard shortcuts... > Mission Control)
 - Install:
   - Browser(s): Firefox, Brave, (Chrome)
-  - Command Line Tools (CLT) for Xcode: `xcode-select --install` (this includes Git installation)
   - [Homebrew](https://brew.sh/)
+    - This also installs Command Line Tools (CLT) for Xcode (but if not, run `xcode-select --install` — this includes Git installation)
   - Ghostty: `brew install --cask ghostty`
   - Rectangle: `brew install --cask rectangle`, import the config in this repo — and if needed, run `bash ./rectangle-eighths.sh`
   - Fish shell: `brew install fish` (and [make it the default shell](https://fishshell.com/docs/current))
