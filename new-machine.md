@@ -18,6 +18,7 @@ These are not necessarily related to Fish shell but are still useful to have bee
   - Useful command-line utilities using Homebrew:
     - ripgrep
     - tig
+    - tldr
     - witr
     - (most likely) colima, docker, docker-compose
     - (possibly) k9s, kubectl, krelay
