@@ -15,5 +15,11 @@ These are not necessarily related to Fish shell but are still useful to have bee
   - [bobthefish](https://github.com/oh-my-fish/theme-bobthefish) - Fish theme
   - **Fira Mono** font from [powerline fonts](https://github.com/powerline/fonts)
   - [Hasklig font](https://github.com/i-tu/Hasklig) for Intellij Idea
-- Customise the folder color in iTerm (blue color to lighter one)
+  - Useful command-line utilities using Homebrew:
+    - ripgrep
+    - tig
+    - witr
+    - (most likely) colima, docker, docker-compose
+    - (possibly) k9s, kubectl, krelay
+- Use `fish_config` to customise theme colors (e.g. command color to blue)
 - Remove the "Search man Page Index in Terminal" keyboard shortcut in System Settings, under Services > Text (clashes with IntelliJ shortcut)
